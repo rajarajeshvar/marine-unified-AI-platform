@@ -1,0 +1,47 @@
+initial_values:
+  fuel_tank_level: 82.5
+  hull_corrosion: 4.2
+  hull_integrity: 95.8
+  base_strain: 120.0
+  rpm: 720.0
+  coolant_temp: 82.5
+  oil_pressure: 4.8
+  engine_load: 78.0
+  vibration: 1.8
+  fuel_flow: 920.0
+  latitude: 51.9244
+  longitude: 4.4777
+  heading: 245.0
+states:
+  "OFF":
+    target_rpm: 0.0
+    target_load: 0.0
+    target_fuel_flow: 0.0
+  STARTING:
+    target_rpm: 200.0
+    target_load: 15.0
+    target_fuel_flow: 80.0
+  IDLE:
+    target_rpm: 120.0
+    target_load: 10.0
+    target_fuel_flow: 50.0
+  CRUISE:
+    target_rpm: 740.0
+    target_load: 80.0
+    target_fuel_flow: 980.0
+  HIGH_LOAD:
+    target_rpm: 830.0
+    target_load: 95.0
+    target_fuel_flow: 1250.0
+  WARNING:
+    target_rpm: 650.0
+    target_load: 70.0
+    target_fuel_flow: 850.0
+  CRITICAL:
+    target_rpm: 300.0
+    target_load: 30.0
+    target_fuel_flow: 400.0
+  SHUTDOWN:
+    target_rpm: 0.0
+    target_load: 0.0
+    target_fuel_flow: 0.0

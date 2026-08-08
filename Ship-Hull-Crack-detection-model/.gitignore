@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Models & Weights
+*.pt
+*.onnx
+*.engine
+models/
+runs/
+
+# Dataset & Symlinks
+dataset/
+Underwater Crack Detection.v3i.yolov8/
+
+# Data & Output files
+*.jpg
+*.png
+*.csv
+*.json
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

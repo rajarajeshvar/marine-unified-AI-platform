@@ -1,0 +1,31 @@
+dataset:
+  root: "dataset"
+  data_yaml: "config/data.yaml"
+
+model:
+  variant: "yolov8s"
+  num_classes: 1
+  class_names:
+    - "crack"
+  weights: null
+
+training:
+  epochs: 50
+  batch_size: 16
+  image_size: 640
+  learning_rate: 0.01
+  optimizer: "auto"
+  patience: 10
+  save_period: 5
+  resume: true
+  resume_weights: "runs/pipeline_test/weights/last.pt"
+  project: "runs"
+  name: "pipeline_test"
+  device: "0"
+
+inference:
+  weights: "runs/pipeline_test/weights/best.pt"
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+  image_size: 640
+  device: "0"

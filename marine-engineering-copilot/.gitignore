@@ -1,0 +1,14 @@
+venv/
+.env
+__pycache__/
+*.pyc
+git/
+MinGit.zip
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.vscode/
+.idea/
+.DS_Store
+marine engineering copilot/

@@ -1,0 +1,56 @@
+TEMP_WARNING:
+  system: "engine"
+  message: "Engine coolant temperature high"
+  level: "WARNING"
+TEMP_CRITICAL:
+  system: "engine"
+  message: "Engine coolant temperature critically high"
+  level: "CRITICAL"
+VIB_WARNING:
+  system: "engine"
+  message: "Elevated engine vibration detected"
+  level: "WARNING"
+VIB_CRITICAL:
+  system: "engine"
+  message: "Severe engine vibration detected"
+  level: "CRITICAL"
+OIL_LOW_WARNING:
+  system: "engine"
+  message: "Engine lube oil pressure low"
+  level: "WARNING"
+OIL_LOW_CRITICAL:
+  system: "engine"
+  message: "Engine lube oil pressure critically low"
+  level: "CRITICAL"
+LEAK_DETECTED:
+  system: "fuel"
+  message: "Fuel supply line leak or pressure drop detected"
+  level: "CRITICAL"
+FUEL_WARNING:
+  system: "fuel"
+  message: "Fuel reserve levels low"
+  level: "WARNING"
+FUEL_CRITICAL:
+  system: "fuel"
+  message: "Fuel reserve levels critically low"
+  level: "CRITICAL"
+STRESS_WARNING:
+  system: "hull"
+  message: "Elevated structural strain detected on hull beams"
+  level: "WARNING"
+STRESS_CRITICAL:
+  system: "hull"
+  message: "Critical structural strain detected on hull beams"
+  level: "CRITICAL"
+GPS_LOSS:
+  system: "navigation"
+  message: "Primary GNSS signal quality degraded"
+  level: "WARNING"
+ROLL_WARNING:
+  system: "navigation"
+  message: "Excessive vessel roll detected"
+  level: "WARNING"
+ROLL_CRITICAL:
+  system: "navigation"
+  message: "Critical vessel roll detected - risk of cargo shifting"
+  level: "CRITICAL"

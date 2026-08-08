@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+node_modules/
+.next/
+*.zip
+dataset/
+chroma_db/
+.env
+.env.local
+Underwater Crack Detection*
+*.csv

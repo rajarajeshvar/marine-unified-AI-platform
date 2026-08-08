@@ -1,0 +1,8 @@
+# Underwater Crack Detection dataset (Roboflow v3)
+# Absolute paths — works regardless of working directory
+train: C:/Users/rajan/OneDrive/Documents/engine_failure_prediction/Underwater Crack Detection.v3i.yolov8/train/images
+val: C:/Users/rajan/OneDrive/Documents/engine_failure_prediction/Underwater Crack Detection.v3i.yolov8/valid/images
+test: C:/Users/rajan/OneDrive/Documents/engine_failure_prediction/Underwater Crack Detection.v3i.yolov8/test/images
+
+nc: 1
+names: ['crack']

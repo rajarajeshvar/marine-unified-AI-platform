@@ -1,0 +1,40 @@
+engine:
+  rpm:
+    warning: 780.0
+    critical: 850.0
+    comparison: "above"
+  coolant_temp:
+    warning: 95.0
+    critical: 105.0
+    comparison: "above"
+  oil_pressure:
+    warning: 2.0
+    critical: 1.0
+    comparison: "below"
+  vibration:
+    warning: 3.2
+    critical: 4.5
+    comparison: "above"
+fuel:
+  tank_level:
+    warning: 25.0
+    critical: 15.0
+    comparison: "below"
+  feed_pressure:
+    warning: 2.5
+    critical: 1.8
+    comparison: "below"
+hull:
+  strain:
+    warning: 180.0
+    critical: 240.0
+    comparison: "above"
+  vibration:
+    warning: 2.0
+    critical: 3.5
+    comparison: "above"
+navigation:
+  roll:
+    warning: 6.0
+    critical: 12.0
+    comparison: "above"
